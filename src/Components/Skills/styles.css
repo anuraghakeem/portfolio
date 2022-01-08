@@ -1,0 +1,39 @@
+.Skills-container{
+    margin-top: 95px;
+}
+
+.Skills-container .row-custom.cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Skills-container .card{
+    width: 334px;
+    height: 334px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 5px;
+    line-height: 75px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.Skills-container .card .card-image{
+    margin-top: 61px;
+    line-height: 11px;
+}
+
+.Skills-container .card .card-heading{
+    margin-top: 39px;
+}
+
+.Skills-container .card .card-heading h3{
+    margin:0;
+}
+
+.Skills-container .card .desc p{
+    line-height: 28px;
+}

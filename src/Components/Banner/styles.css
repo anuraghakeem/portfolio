@@ -1,0 +1,113 @@
+.text-red{
+    color: #FF004F;
+}
+
+.row-custom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.banner-container .row-custom{
+    justify-content: space-between;
+}
+
+.banner-container .col-text{
+    max-width: 478px;
+    text-align: left;
+}
+
+.title-primary h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 9px;
+}
+
+.subTitle{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+}
+
+.banner-container .dynamic-text{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.banner-container .desc{
+    margin-top: 29px;
+    margin-bottom: 89px;
+    line-height: 28px;
+}
+
+.banner-container .desc p{
+    margin: 0;
+}
+
+.row-custom .social-links{
+    justify-content: flex-start;
+    margin-top: 21px;
+}
+
+.row-custom .social-links .col-33{
+    margin-right: 45px;
+}
+
+.banner-container .social-button{
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 5px;
+    line-height: 75px;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.banner-container .social-button:hover{
+    transform: translateY(-3px);
+}
+
+.banner-container .social-button::before{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.banner-container .social-button:hover::before{
+    opacity: 1;
+}
+.bannerImage{
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.bannerImage::before{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 50%;
+    border-radius: 7px;
+}
+
+.bannerImageInner{
+    padding: 15px;
+}
