@@ -1,0 +1,217 @@
+.fade {
+    transition: opacity .15s linear;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.modal-backdrop.show {
+    opacity: 1;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+    background-color: #212428;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1055;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+}
+
+.modal.fade .modal-dialog {
+    transition: transform .3s ease-out;
+    transform: translateY(-50px);
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: auto;
+    pointer-events: none;
+    max-width: 1100px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border-radius: 5px;
+    outline: 0;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border-bottom: 1px solid #dee2e6; */
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-header .btn-close {
+    padding: 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 3px 3px 5px #1c1e22, -3px -3px 5px #262a2e;
+    background-image: url('../../Images/Common/CloseIcon.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.modal-header .btn-close:hover{
+    transform: translateY(-2px);
+}
+
+.modal-header .btn-close::before{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    /* width: 100%; */
+    /* height: 100%; */
+    border-radius: 34px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.modal-header .btn-close::before{
+    opacity: 1;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+    color: #fff;
+    /* background-image: url('../../Images/Common/CloseIcon.svg'); */
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .5;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.Project-modal-container .modal-header {
+    padding: 25px 25px 10px 25px;
+}
+
+.Project-modal-container .modal-body {
+    padding: 0 24px 63px 24px;
+}
+
+.Project-modal-container .row-custom.modal-row{
+    justify-content: space-between;
+}
+
+.Project-modal-container .col-text{
+    max-width: 550px;
+}
+
+.modal-body .heading h3{
+    margin: 0;
+}
+
+.modal-body .col-text .desc{
+    margin-top: 10px;
+}
+
+.modal-body .col-text .desc p{
+    margin: 0;
+    line-height: 28px;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+.Project-modal-container .cta-buttons{
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.Project-modal-container .cta-buttons .cta-view-project{
+    display: inline-block;
+    /* width: 67px; */
+    /* height: 67px; */
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 28px;
+    /* line-height: 75px; */
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    text-decoration: none;
+    padding: 18px 45px;
+}
+
+.Project-modal-container .cta-buttons .cta-view-project:hover{
+    transform: translateY(-3px);
+}
+
+.Project-modal-container .cta-buttons .cta-view-project::before{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.Project-modal-container .cta-buttons .cta-view-project::before{
+    opacity: 1;
+}

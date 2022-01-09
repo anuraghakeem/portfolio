@@ -3,6 +3,8 @@ import './App.css';
 import Banner from './Components/Banner'
 import Divider from './Components/Divider'
 import Skills from './Components/Skills'
+import Clients from './Components/Clients'
+import Projects from './Components/Projects'
 
 function App() {
   return (
@@ -11,6 +13,10 @@ function App() {
         <Banner />
         <Divider />
         <Skills />
+        <Divider />
+        <Projects />
+        <Divider />
+        <Clients />
         <Divider />
       </div>
     </div>

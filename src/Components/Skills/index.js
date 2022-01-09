@@ -1,8 +1,6 @@
-import Images from '../../Images'
 import Data from '../../Data'
 import './styles.css'
 
-const SkillUxStrategy = Images.SkillUxStrategy
 const SkillsData = Data.Skills
 
 function Skills() {

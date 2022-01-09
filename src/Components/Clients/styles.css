@@ -1,0 +1,27 @@
+.Clients-container{
+    margin-top: 95px;
+}
+
+.Clients-container .row-custom.cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Clients-container .card{
+    display: flex;
+    justify-content: center;
+    width: 187px;
+    height: 187px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    align-items: center;
+}
+
+/* .Clients-container .card .card-image img{
+    width: 101px;
+} */
