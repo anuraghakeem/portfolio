@@ -10,16 +10,27 @@ const ProjectsData = Data.Projects
 
 function Projects() {
     const [show, setShow] = useState(false);
+    const [selectedProject, updateSelectedProject] = useState(0);
+
 
     const ProjectCards = ProjectsData.map((project, key) => {
         return (
-            // <div className='card' onClick={() => console.log('clicked')}>
-            <div className='card' onClick={() => setShow(true)}>
+            <div className='card' onClick={() => {
+                updateSelectedProject(project)
+                setShow(true)
+            }
+            }
+            >
                 <div className='card-image'>
                     <img src={project.Image}></img>
                 </div>
-                <div className="subTitle text-red">
-                    {project.Subheading}
+                <div className="subTitle">
+                    <span className='text-red subTitle-text'>
+                        {project.Subheading}
+                    </span>
+                    <span className='subTitle-likes'>
+                        {project.Likes}
+                    </span>
                 </div>
                 <div className='card-heading'>
                     <h3>{project.Heading}</h3>
@@ -45,9 +56,10 @@ function Projects() {
                     {ProjectCards}
                 </div>
             </section>
-            <ProjectModal 
-                show={show} 
+            <ProjectModal
+                show={show}
                 setShow={setShow}
+                selectedProject={selectedProject}
             />
         </>
     )
