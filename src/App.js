@@ -5,6 +5,7 @@ import Divider from './Components/Divider'
 import Skills from './Components/Skills'
 import Clients from './Components/Clients'
 import Projects from './Components/Projects'
+import Resume from './Components/Resume'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Divider />
         <Projects />
         <Divider />
+        <Resume />
+        <Divider />
         <Clients />
         <Divider />
       </div>
@@ -23,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

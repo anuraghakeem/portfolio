@@ -1,0 +1,7 @@
+.Resume-container{
+    margin-top: 95px;
+}
+
+.Resume-container .custom-tabs{
+    flex-direction: column;
+}

@@ -6,11 +6,11 @@ const SkillsData = Data.Skills
 function Skills() {
     const SkillCards = SkillsData.map((skill, key) => {
         return (
-            <div className='card'>
-                <div className='card-image'>
+            <div className='custom-card'>
+                <div className='custom-card-image'>
                     <img src={skill.Image}></img>
                 </div>
-                <div className='card-heading'>
+                <div className='custom-card-heading'>
                     <h3>{skill.Heading}</h3>
                 </div>
                 <div className="desc">

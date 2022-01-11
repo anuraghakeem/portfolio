@@ -1,0 +1,7 @@
+.row-custom.custom-tab{
+    flex-direction: column;
+}
+
+.row-custom.custom-tab .col-icons{
+    display: flex;
+}

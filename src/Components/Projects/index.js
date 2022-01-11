@@ -15,13 +15,13 @@ function Projects() {
 
     const ProjectCards = ProjectsData.map((project, key) => {
         return (
-            <div className='card' onClick={() => {
+            <div className='custom-card' onClick={() => {
                 updateSelectedProject(project)
                 setShow(true)
             }
             }
             >
-                <div className='card-image'>
+                <div className='custom-card-image'>
                     <img src={project.Image}></img>
                 </div>
                 <div className="subTitle">
@@ -32,7 +32,7 @@ function Projects() {
                         {project.Likes}
                     </span>
                 </div>
-                <div className='card-heading'>
+                <div className='custom-card-heading'>
                     <h3>{project.Heading}</h3>
                 </div>
             </div>
@@ -52,7 +52,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="row-custom cards">
+                <div className="row-custom custom-cards">
                     {ProjectCards}
                 </div>
             </section>

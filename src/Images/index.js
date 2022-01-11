@@ -6,6 +6,7 @@ import SkillUxStrategy from './Home/SkillUxStrategy.svg'
 import CleanAndClear from './Home/CleanAndClear.png'
 import ProjectWebDevelopment from './Home/ProjectWebDevelopment.png'
 import CloseIcon from './Common/CloseIcon.svg'
+import TechnologyHtml5 from './Home/TechnologyHtml5.svg'
 
 const Images ={
     BannerImage,
@@ -16,6 +17,7 @@ const Images ={
     CleanAndClear,
     ProjectWebDevelopment,
     CloseIcon,
+    TechnologyHtml5
 }
 
 export default Images
