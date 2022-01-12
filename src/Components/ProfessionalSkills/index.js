@@ -58,7 +58,7 @@ function ProfessionalSkills() {
             <div className="row-custom custom-tab">
                 <div className="col-text">
                     <div className="heading text-red">
-                    Creative
+                        Creative
                     </div>
                 </div>
                 <div className="col-icons">
@@ -68,7 +68,7 @@ function ProfessionalSkills() {
             <div className="row-custom custom-tab">
                 <div className="col-text">
                     <div className="heading text-red">
-                    Project Management
+                        Project Management
                     </div>
                 </div>
                 <div className="col-icons">

@@ -3,11 +3,12 @@ import Tab from 'react-bootstrap/Tab'
 import Tabs from 'react-bootstrap/Tabs'
 
 import ProfessionalSkills from '../ProfessionalSkills'
+import Accomplishments from '../Accomplishments'
 
 import './styles.css'
 
 function Resume() {
-    const [key, setKey] = useState('home');
+    const [key, setKey] = useState('prefessionalSkills');
     return (
         <>
             <section className='Resume-container'>
@@ -26,7 +27,7 @@ function Resume() {
                         id="controlled-tab-example"
                         activeKey={key}
                         onSelect={(k) => setKey(k)}
-                        className="mb-3"
+                        // className="mb-3"
                     >
                         <Tab eventKey="prefessionalSkills" title="Professional Skills">
                             <ProfessionalSkills />
@@ -34,8 +35,8 @@ function Resume() {
                         <Tab eventKey="experience" title="Experience">
                             <div>Experience</div>
                         </Tab>
-                        <Tab eventKey="certification" title="Certifications">
-                            <div>Certifications</div>
+                        <Tab eventKey="accomplishments" title="Accomplishments">
+                            <Accomplishments />
                         </Tab>
                         <Tab eventKey="education" title="Education">
                             <div>Education</div>

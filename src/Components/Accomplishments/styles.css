@@ -1,0 +1,9 @@
+.row-custom.custom-accomplishments{
+    flex-direction: column;
+}
+
+.row-custom.custom-accomplishments .heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 73px;
+}

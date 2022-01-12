@@ -1,7 +1,24 @@
 .row-custom.custom-tab{
     flex-direction: column;
 }
+.row-custom.custom-tab .heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 73px;
+}
 
 .row-custom.custom-tab .col-icons{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-custom.custom-tab .custom-icon{
+    width: 209px;
+    margin-top: 50px;
+}
+
+
+.row-custom.custom-tab .custom-icon .custom-icon-title{
+    margin-top: 22px;
 }
