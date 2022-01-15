@@ -37,7 +37,7 @@ const Accomplishments = {
         {
             Title: 'UX Foundations: Multidevice Design',
             Desc: 'Issued by - Linkedin',
-            Url: 'https://www.udemy.com/certificate/UC-5IP2YBIH/',
+            Url: null,
         },
         {
             Title: 'Learn & Understand NodeJS',
@@ -85,9 +85,9 @@ const Accomplishments = {
             Url: null,
         },
         {
-            Title: 'UX Foundations: Multidevice Design',
+            Title: 'Excel 2010 Essential Training',
             Desc: 'Issued by - Linkedin',
-            Url: 'https://www.udemy.com/certificate/UC-5IP2YBIH/',
+            Url: null,
         },
     ]
 }

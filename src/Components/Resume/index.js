@@ -24,7 +24,7 @@ function Resume() {
                 </div>
                 <div className="row-custom custom-tabs">
                     <Tabs
-                        id="controlled-tab-example"
+                        id="resume-tabs"
                         activeKey={key}
                         onSelect={(k) => setKey(k)}
                         // className="mb-3"
