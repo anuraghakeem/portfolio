@@ -13,18 +13,18 @@
 
 .row-custom-accomplishments .col-cards-honors,
 .row-custom-accomplishments .col-cards-published-papers,
-.row-custom-accomplishments .col-cards-certifications{
+.row-custom-accomplishments .col-cards-certifications {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .col-cards-honors .custom-card,
-.col-cards-certifications .custom-card{
+.col-cards-certifications .custom-card {
   width: 334px;
 }
 
-.row-custom-accomplishments .custom-card{
+.row-custom-accomplishments .custom-card {
   height: 334px;
   background: linear-gradient(145deg, #1e2024, #23272b);
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
@@ -40,36 +40,35 @@
   transition: all 0.3s;
 }
 
-.row-custom-accomplishments .custom-card.hoverable{
+.row-custom-accomplishments .custom-card.hoverable {
   cursor: pointer;
 }
-.row-custom-accomplishments .custom-card.hoverable:hover{
+.row-custom-accomplishments .custom-card.hoverable:hover {
   transform: translateY(-3px);
 }
 
-.row-custom-accomplishments .custom-card.hoverable::before{
-    background: linear-gradient(to right bottom, #212428, #16181c);
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-    transition: all 0.3s;
-    top: 0;
-    left: 0;
-    content: '';
+.row-custom-accomplishments .custom-card.hoverable::before {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  content: "";
 }
 
-.row-custom-accomplishments .custom-card.hoverable:hover::before{
+.row-custom-accomplishments .custom-card.hoverable:hover::before {
   opacity: 1;
 }
 
-.row-custom-accomplishments .custom-card .desc{
+.row-custom-accomplishments .custom-card .desc {
   margin-top: 10px;
 }
 
-.row-custom-accomplishments .custom-card .desc p{
+.row-custom-accomplishments .custom-card .desc p {
   margin-bottom: 0;
 }
-

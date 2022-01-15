@@ -6,6 +6,7 @@ import Skills from './Components/Skills'
 import Clients from './Components/Clients'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Resume />
         <Divider />
         <Clients />
+        <Divider />
+        <Contact />
         <Divider />
       </div>
     </div>
