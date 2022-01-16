@@ -3,13 +3,15 @@ import Clients from "./Clients"
 import Projects from "./Projects"
 import ProfessionalSkills from "./ProfessionalSkills"
 import Accomplishments from "./Accomplishments"
+import Contact from "./Contact"
 
 const Data = {
     Skills,
     Clients,
     Projects,
     ProfessionalSkills,
-    Accomplishments
+    Accomplishments,
+    Contact
 }
 
 export default Data;

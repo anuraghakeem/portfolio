@@ -1,0 +1,188 @@
+.Contact-container {
+  margin-top: 95px;
+}
+
+.Contact-container .desc {
+  margin-top: 22px;
+}
+
+.Contact-container .desc p {
+  margin-bottom: 0;
+}
+
+.Contact-container .desc a:hover {
+  color: #ff004f;
+  cursor: pointer;
+}
+
+.Contact-container .contact-form.row-custom {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Contact-container .contact-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 399px;
+  margin-top: 58px;
+}
+.Contact-container .contact-form-input label {
+  margin-bottom: 20px;
+}
+
+.Contact-container .contact-form-input input,
+.Contact-container .contact-form-input .rw-date-picker {
+  width: 100%;
+  height: 56px;
+}
+
+.Contact-container .contact-form-input .input-name,
+.Contact-container .contact-form-input .input-time .rw-widget-input,
+.Contact-container .contact-form-input .input-time .rw-popup,
+.Contact-container .contact-form-input .input-time .rw-popup .rw-list,
+.Contact-container .contact-form-input .input-date .rw-widget-picker,
+.Contact-container .contact-form-input .input-email {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+}
+.Contact-container .contact-form-input .input-name:focus-visible,
+.Contact-container .contact-form-input .input-email:focus-visible {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  outline-width: 0;
+}
+
+.Contact-container .contact-form-input .input-name,
+.Contact-container .contact-form-input .input-email {
+  padding-left: 13px;
+}
+
+.Contact-container
+  .contact-form-input
+  .input-date
+  .rw-widget-picker
+  #rw_3_input {
+  color: #fff;
+  background-color: transparent;
+}
+
+.Contact-container
+  .contact-form-input
+  .input-date
+  .rw-widget-picker
+  .rw-picker-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.Contact-container
+  .contact-form-input
+  .input-date
+  .rw-widget-picker
+  .rw-picker-btn:hover {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+.Contact-container
+  .contact-form-input
+  .input-date
+  .rw-widget-picker
+  .rw-picker-btn
+  svg {
+  fill: #fff;
+}
+
+.Contact-container .contact-form-input .input-date .rw-calendar-popup {
+  width: 100%;
+}
+
+.Contact-container
+  .contact-form-input
+  .input-date
+  .rw-calendar-popup
+  .rw-state-selected {
+  background-color: #ff004f;
+  border-color: #ff004f;
+}
+
+.Contact-container .contact-form-input .input-time .rw-dropdown-list-input {
+  align-items: center;
+  text-align: left;
+}
+
+.Contact-container .contact-form-input .input-time .rw-picker-caret svg {
+  fill: #ff004f;
+}
+
+.Contact-container .contact-form-input .input-time .rw-popup .rw-list-option {
+  color: #fff;
+  transition: all 0.3s;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact-container
+  .contact-form-input
+  .input-time
+  .rw-popup
+  .rw-list-option:hover {
+  border: none;
+  background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.Contact-container
+  .contact-form-input
+  .input-time
+  .rw-popup
+  .rw-list-option.rw-state-selected {
+  background-color: #ff004f;
+}
+
+.Contact-container .contact-form-submit {
+  width: 893px;
+  margin-top: 68px;
+}
+.Contact-container .contact-form-submit .contact-form-submit-text {
+  width: 893px;
+  display: inline-block;
+  height: 56px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 28px;
+  text-align: center;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+  padding: 18px 45px;
+}
+
+.Contact-container .contact-form-submit .contact-form-submit-text:hover {
+  transform: translateY(-3px);
+  color: #ff004f;
+}
+
+.Contact-container .contact-form-submit .contact-form-submit-text::before {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.Contact-container
+  .contact-form-submit
+  .contact-form-submit-text:hover::before {
+  opacity: 1;
+}

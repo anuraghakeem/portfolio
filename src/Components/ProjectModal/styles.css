@@ -215,7 +215,7 @@
     content: '';
 }
 
-.Project-modal-container .cta-buttons .cta-view-project::before{
+.Project-modal-container .cta-buttons .cta-view-project:hover::before{
     opacity: 1;
 }
 

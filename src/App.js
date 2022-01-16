@@ -7,6 +7,7 @@ import Clients from './Components/Clients'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
+import Pricing from './Components/Pricing'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Resume />
         <Divider />
         <Clients />
+        <Divider />
+        <Pricing />
         <Divider />
         <Contact />
         <Divider />

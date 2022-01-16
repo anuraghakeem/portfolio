@@ -1,11 +1,11 @@
-import { useState } from "react";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import { useState } from "react"
+import Tab from "react-bootstrap/Tab"
+import Tabs from "react-bootstrap/Tabs"
 
-import ProfessionalSkills from "../ProfessionalSkills";
-import Accomplishments from "../Accomplishments";
+import ProfessionalSkills from "../ProfessionalSkills"
+import Accomplishments from "../Accomplishments"
 
-import "./styles.css";
+import "./styles.css"
 
 function Resume() {
   const [key, setKey] = useState("prefessionalSkills");

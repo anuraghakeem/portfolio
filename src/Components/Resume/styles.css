@@ -4,6 +4,7 @@
 
 .Resume-container .custom-tabs {
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .Resume-container .custom-tabs .nav-tabs {
