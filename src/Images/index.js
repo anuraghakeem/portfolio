@@ -11,6 +11,8 @@ import BlzBuy from './Home/BlzBuy.png'
 import EthBuy from './Home/EthBuy.png'
 import Hours from './Home/Hours.svg'
 import BlzButtonIcon from './Home/BlzButtonIcon.png'
+import FooterImage from './Common/FooterImage.svg'
+import MenubarLogo from './Common/MenubarLogo.png'
 
 const Images ={
     BannerImage,
@@ -25,7 +27,9 @@ const Images ={
     BlzBuy,
     EthBuy,
     Hours,
-    BlzButtonIcon
+    BlzButtonIcon,
+    FooterImage,
+    MenubarLogo
 }
 
 export default Images

@@ -1,0 +1,13 @@
+.Footer-container {
+    margin-top: 115px;
+    padding-bottom: 107px;
+  }
+
+.Footer-container .subTitle{
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+.Footer-container .desc{
+    margin-top: 14px;
+}

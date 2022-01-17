@@ -22,6 +22,8 @@ function Banner() {
                                 strings: ['Creative Technologist', 'Web3 Developer', 'UI Developer', 'UI Designer', 'UX Strategist', 'Project Manager', 'Batman'],
                                 autoStart: true,
                                 loop: true,
+                                deleteSpeed:40,
+                                delay: 100
                             }}
                         />
                     </div>

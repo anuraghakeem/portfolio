@@ -2,12 +2,148 @@
   margin-top: 95px;
 }
 
-.Pricing-container .custom-tabs {
-  flex-direction: column;
-  margin-top: 63px;
+.Pricing-container .desc {
+  margin-top: 22px;
 }
 
-.Pricing-container .custom-tabs .pricing-form{
-    display: flex;
-    flex-direction: column;
+.Pricing-container .custom-tabs {
+  flex-direction: column;
+  margin-top: 47px;
+}
+
+.Pricing-container .custom-tabs .nav-tabs {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  border: none;
+}
+
+.Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link {
+  width: 275px;
+  text-decoration: none;
+  color: #fff;
+  height: 93px;
+  transition: all 0.3s;
+  border: none;
+}
+
+.Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link:hover {
+  border: none;
+  transform: translateY(-3px);
+}
+
+.Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link.active {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  color: #ff004f;
+  border: none;
+}
+
+.Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link::before {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link:hover::before {
+  opacity: 1;
+}
+
+.Pricing-container .custom-tabs .pricing-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 550px;
+  margin-top: 41px;
+}
+
+.Pricing-container .pricing-form-input {
+  margin-top: 22px;
+}
+
+.Pricing-container .pricing-form-input .input-hourstobook,
+.Pricing-container .pricing-form-input .input-ethtokenstobuy,
+.Pricing-container .pricing-form-input .input-blazetokenstobuy {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  padding-left: 13px;
+  width: 399px;
+  margin-right: 31px;
+  height: 56px;
+}
+
+.Pricing-container .pricing-form-input .input-hourstobook:focus-visible,
+.Pricing-container .pricing-form-input .input-ethtokenstobuy:focus-visible,
+.Pricing-container .pricing-form-input .input-blazetokenstobuy:focus-visible {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  outline-width: 0;
+}
+
+.Pricing-container .custom-tabs .pricing-form .pricing-form-submit {
+  width: 100%;
+  margin-top: 25px;
+}
+.Pricing-container .custom-tabs .pricing-form .pricing-form-submit button {
+  width: 100%;
+  height: 56px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 28px;
+  text-align: center;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+  border: none;
+}
+.Pricing-container
+  .custom-tabs
+  .pricing-form
+  .pricing-form-submit
+  button:hover {
+  transform: translateY(-3px);
+  color: #ff004f;
+}
+
+.Pricing-container
+  .custom-tabs
+  .pricing-form
+  .pricing-form-submit
+  button::before {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.Pricing-container
+  .custom-tabs
+  .pricing-form
+  .pricing-form-submit
+  button:hover::before {
+  opacity: 1;
 }

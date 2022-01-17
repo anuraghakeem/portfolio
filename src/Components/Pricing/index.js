@@ -1,13 +1,13 @@
-import { useState } from "react";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import { useState } from "react"
+import Tab from "react-bootstrap/Tab"
+import Tabs from "react-bootstrap/Tabs"
 
 import Images from '../../Images'
 
-import "./styles.css";
+import "./styles.css"
 
 function Pricing() {
-  const [key, setKey] = useState("buyBlaze");
+  const [key, setKey] = useState("buyBlaze")
   const {BlzBuy, EthBuy, Hours, BlzButtonIcon} = Images
   return (
     <section className="Pricing-container">
@@ -62,7 +62,7 @@ function Pricing() {
               <div className="desc">
                 <p>1 Blaze = 0.03 ETH ( $ 113.25)</p>
               </div>
-              <div className="contact-form-submit">
+              <div className="pricing-form-submit">
                 {/* <a
                   href={`mailto:anuraghakeem97@gmail.com?
           subject=Block%20Call
@@ -71,7 +71,7 @@ function Pricing() {
                 >
                   Submit
                 </a> */}
-                <button>
+                <button className="text-red">
                     Buy
                 </button>
               </div>
@@ -89,7 +89,7 @@ function Pricing() {
                 <img className='pricing-form-input-icon book-hrs-form-input-icon'
                 src={Hours}></img>
               </div>
-              <div className="contact-form-submit">
+              <div className="pricing-form-submit">
                 {/* <a
                   href={`mailto:anuraghakeem97@gmail.com?
           subject=Block%20Call
@@ -98,7 +98,7 @@ function Pricing() {
                 >
                   Submit
                 </a> */}
-                <button>
+                <button className="text-red">
                     <img src={BlzButtonIcon}></img>Blz it
                 </button>
               </div>
@@ -110,4 +110,4 @@ function Pricing() {
   );
 }
 
-export default Pricing;
+export default Pricing
