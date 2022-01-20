@@ -4,6 +4,7 @@ import Tabs from "react-bootstrap/Tabs"
 
 import ProfessionalSkills from "../ProfessionalSkills"
 import Accomplishments from "../Accomplishments"
+import Education from "../Education"
 
 import "./styles.css"
 
@@ -37,7 +38,7 @@ function Resume() {
               <Accomplishments />
             </Tab>
             <Tab eventKey="education" title="Education">
-              <div>Education</div>
+              <Education />
             </Tab>
           </Tabs>
         </div>

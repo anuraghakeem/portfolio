@@ -13,6 +13,7 @@ import Hours from './Home/Hours.svg'
 import BlzButtonIcon from './Home/BlzButtonIcon.png'
 import FooterImage from './Common/FooterImage.svg'
 import MenubarLogo from './Common/MenubarLogo.png'
+import EducationDefaultPreviewImage from './Home/EducationDefaultPreviewImage.svg'
 
 const Images ={
     BannerImage,
@@ -29,7 +30,8 @@ const Images ={
     Hours,
     BlzButtonIcon,
     FooterImage,
-    MenubarLogo
+    MenubarLogo,
+    EducationDefaultPreviewImage,
 }
 
 export default Images

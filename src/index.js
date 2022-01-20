@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-widgets/styles.css";
+import 'react-vertical-timeline-component/style.min.css';
 
 import './index.css';
 // import App from './App';

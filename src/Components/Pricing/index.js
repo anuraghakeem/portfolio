@@ -17,7 +17,7 @@ function Pricing() {
           <div className="title-primary">
             <h2>Pricing</h2>
           </div>
-          <div className="desc">
+          <div className="desc para">
             <p>
               I do not have fixed charges for projects. Every project comes with
               a different set of needs and goals. To provide you with the most

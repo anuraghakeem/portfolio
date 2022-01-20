@@ -4,6 +4,7 @@ import Projects from "./Projects"
 import ProfessionalSkills from "./ProfessionalSkills"
 import Accomplishments from "./Accomplishments"
 import Contact from "./Contact"
+import Education from "./Education"
 
 const Data = {
     Skills,
@@ -11,7 +12,8 @@ const Data = {
     Projects,
     ProfessionalSkills,
     Accomplishments,
-    Contact
+    Contact,
+    Education
 }
 
 export default Data;

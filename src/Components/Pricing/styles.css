@@ -5,6 +5,9 @@
 .Pricing-container .desc {
   margin-top: 22px;
 }
+.Pricing-container .para {
+  width: 860px;
+}
 
 .Pricing-container .custom-tabs {
   flex-direction: column;
