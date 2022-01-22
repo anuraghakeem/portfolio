@@ -27,3 +27,11 @@ strong{
 code {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+   body{
+    margin: 5px;
+   } 
+}
+/* Mobile END */

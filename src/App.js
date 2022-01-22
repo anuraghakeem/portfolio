@@ -10,11 +10,13 @@ import Contact from './Components/Contact'
 import Pricing from './Components/Pricing'
 import Footer from './Components/Footer'
 import Menubar from './Components/Menubar'
+import DotRing from './Components/DotCursor'
 
 function App() {
   return (
     <div className="App App-Container">
-        <Menubar />
+      <DotRing />
+      <Menubar />
       <div class='grid-1100'>
         <Banner />
         <Divider />

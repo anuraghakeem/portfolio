@@ -186,3 +186,20 @@
   .contact-form-submit-text:hover::before {
   opacity: 1;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Contact-container .contact-form-input {
+    width: 350px;
+  }
+  .Contact-container .contact-form-submit {
+    width: 350px;
+  }
+  .Contact-container .contact-form-submit .contact-form-submit-text {
+    width: 350px;
+  }
+  /* *{
+    box-shadow: none!important;
+  } */
+}
+/* Mobile END*/

@@ -150,3 +150,21 @@
   button:hover::before {
   opacity: 1;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Pricing-container .para {
+    width: 350px;
+  }
+
+  .Pricing-container .custom-tabs .pricing-form {
+    width: 100%;
+  }
+
+  .Pricing-container .pricing-form-input .input-hourstobook,
+  .Pricing-container .pricing-form-input .input-ethtokenstobuy,
+  .Pricing-container .pricing-form-input .input-blazetokenstobuy {
+    width: 350px;
+  }
+}
+/* Mobile END*/

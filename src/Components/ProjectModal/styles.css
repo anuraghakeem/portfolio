@@ -221,4 +221,10 @@
 
 .Project-modal-container .likes{
     font-size: 17px;;
+    display: flex;
+}
+
+.Project-modal-container .likes .likes-icon{
+    width: 25px;
+    margin-right: 12px;
 }

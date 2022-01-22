@@ -1,4 +1,6 @@
 import Modal from 'react-bootstrap/Modal'
+import { useState } from "react"
+import Heart from "react-heart"
 
 import Images from '../../Images'
 import './styles.css'
@@ -7,6 +9,12 @@ const { ProjectWebDevelopment } = Images
 
 function ProjectModal(props) {
   const { show, setShow, selectedProject } = props
+  const [active, setActive] = useState(false)
+  // const [likes,handleLikes] = useState(selectedProject.Likes)
+
+  const handleLikeClick = () => {
+    setActive(!active)
+  }
 
   return (
     <>
@@ -57,7 +65,9 @@ function ProjectModal(props) {
                   </a>
                 </div>
                 <div className="likes">
-                  <strong>{selectedProject ? selectedProject.Likes : '62'}</strong>
+                <span className='likes-icon'><Heart activeColor = "#FF004F" style={{fill: active ? "transparent" : "#FF004F", stroke: active ? "white":"transparent"}} isActive={active} onClick={handleLikeClick} animationScale = {1.25} /></span>
+                {/* <span className='likes-icon'><Heart activeColor = "#FF004F" style={{fill: active ? "transparent" : "#FF004F", stroke: active ? "white":"transparent"}} isActive={active} onClick={() => setActive(!active)} animationScale = {1.25} /></span> */}
+                  {/* <strong>{selectedProject ? likes : '62'}</strong> */}
                 </div>
               </div>
             </div>

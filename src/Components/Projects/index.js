@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+
 import ProjectModal from '../ProjectModal'
 
 import Data from '../../Data'
@@ -28,9 +29,9 @@ function Projects() {
                     <span className='text-red subTitle-text'>
                         {project.Subheading}
                     </span>
-                    <span className='subTitle-likes'>
+                    {/* <span className='subTitle-likes'>
                         {project.Likes}
-                    </span>
+                    </span> */}
                 </div>
                 <div className='custom-card-heading'>
                     <h3>{project.Heading}</h3>
