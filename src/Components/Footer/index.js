@@ -13,7 +13,7 @@ function Footer() {
             </div>
           <div className="subTitle text-red">ANURAG</div>
           <div className="desc">
-            <p>© All rights reserved 2021</p>
+            <p>© All Rights Reserved</p>
           </div>
         </div>
       </div>

@@ -7,42 +7,45 @@ import Data from "../../Data";
 
 import "./styles.css";
 
-const EducationData = Data.Education;
-
-function Education() {
-  const EducationTimelineElement = EducationData.map((education, key) => {
+function Experience() {
+  const ExperienceData = Data.Experience;
+  const ExperienceTimelineElement = ExperienceData.map((experience, key) => {
     return (
       <VerticalTimelineElement className="custom-vertical-timeline-element">
         <div className="custom-content-top">
           <div className="custom-col-image">
-            <img src={education.Image}></img>
+            <img src={experience.Image}></img>
           </div>
           <div className="custom-col-text">
-            <div className="custom-col-text-heading">{education.Title}</div>
+            <div className="custom-col-text-heading">{experience.Title}</div>
             <div className="custom-col-text-subheading text-red">
-              {education.Subtitle}
+              {experience.Subtitle}
             </div>
             <div className="custom-col-text-tertiarytext">
               <div className="custom-col-text-tertiarytext-year">
-                {education.Year}
-              </div>
-              <div className="custom-col-text-tertiarytext-marks">
-                {education.Marks}
+                {experience.Year}
               </div>
             </div>
           </div>
+        </div>
+        <div className="custom-content-bottom">
+          <ul className="custom-content-bottom-list">
+            {experience.Content.map((item, key) => {
+              return <li>{item}</li>;
+            })}
+          </ul>
         </div>
       </VerticalTimelineElement>
     );
   });
 
   return (
-    <div className="Education-container">
+    <div className="Experience-container">
       <VerticalTimeline layout="1-column-left" lineColor="#1C1B1B">
-        {EducationTimelineElement}
+        {ExperienceTimelineElement}
       </VerticalTimeline>
     </div>
   );
 }
 
-export default Education;
+export default Experience;

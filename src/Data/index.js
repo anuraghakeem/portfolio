@@ -5,6 +5,7 @@ import ProfessionalSkills from "./ProfessionalSkills"
 import Accomplishments from "./Accomplishments"
 import Contact from "./Contact"
 import Education from "./Education"
+import Experience from "./Experience"
 
 const Data = {
     Skills,
@@ -13,7 +14,8 @@ const Data = {
     ProfessionalSkills,
     Accomplishments,
     Contact,
-    Education
+    Education,
+    Experience
 }
 
 export default Data;
