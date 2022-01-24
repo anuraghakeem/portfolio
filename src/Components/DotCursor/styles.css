@@ -28,3 +28,11 @@
     z-index: 999;
     pointer-events: none;
   } */
+
+  /* Mobile */
+@media screen and (max-width: 1099px) {
+  .ring{
+    display: none;
+  }
+}
+  /* Mobile END */

@@ -33,5 +33,8 @@ code {
    body{
     margin: 5px;
    } 
+   p{
+    font-size: 15px;
+  }
 }
 /* Mobile END */

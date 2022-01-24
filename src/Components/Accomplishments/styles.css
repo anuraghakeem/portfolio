@@ -72,3 +72,36 @@
 .row-custom-accomplishments .custom-card .desc p {
   margin-bottom: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .row-custom-accomplishments .heading {
+    margin-top: 50px;
+
+  }
+
+  .row-custom-accomplishments .custom-card {
+    margin-top: 25px;
+    height: 230px;
+    width: 180px;
+  }
+
+  .row-custom-accomplishments .col-cards-published-papers .custom-card {
+    width: 97%;
+  }
+
+  .row-custom-accomplishments .custom-card .custom-card-heading h3{
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+
+  .row-custom-accomplishments .custom-card .desc{
+    margin-top: 15px;
+  }
+
+  .row-custom-accomplishments .custom-card .desc p{
+    font-size: 13px;
+  }
+}
+/* Mobile END */

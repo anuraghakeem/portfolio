@@ -1,6 +1,14 @@
-.Divider-container{
-    padding-top: 95px;
+.Divider-container {
+  padding-top: 95px;
 }
-.Divider-container hr{
-    border: 1px solid #121415;
+.Divider-container hr {
+  border: 1px solid #121415;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Divider-container {
+    padding-top: 50px;
+  }
+}
+/* Mobile END */

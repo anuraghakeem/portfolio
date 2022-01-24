@@ -65,3 +65,32 @@
 .Projects-container .custom-card .custom-card-heading h3 {
   margin: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Projects-container {
+    margin-top: 50px;
+  }
+
+  .Projects-container .row-custom.custom-cards {
+    justify-content: space-around
+  }
+
+  .Projects-container .custom-card {
+    width: 170px;
+    height:300px;
+    margin-top: 25px;
+    padding: 13px 12px 21px 12px;
+  }
+  .Projects-container .custom-card .custom-card-image img {
+    width:148px;
+  }
+  .Projects-container .custom-card .custom-card-heading {
+    margin-top:5px;
+  }
+  .Projects-container .custom-card .custom-card-heading h3 {
+    font-size:15px;
+    line-height: 25px;
+  }
+}
+/* Mobile END */

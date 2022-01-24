@@ -21,3 +21,18 @@
 .row-custom.custom-tab .custom-icon .custom-icon-title {
   margin-top: 22px;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .row-custom.custom-tab .heading {
+    margin-top: 50px;
+  }
+  .row-custom.custom-tab .col-icons {
+    justify-content: space-evenly;
+  }
+  .row-custom.custom-tab .custom-icon {
+    width: 80px;
+    margin-top: 25px;
+  }
+}
+/* Mobile END */

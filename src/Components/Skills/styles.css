@@ -1,40 +1,74 @@
-.Skills-container{
-    margin-top: 95px;
+.Skills-container {
+  margin-top: 95px;
 }
 
-.Skills-container .row-custom.cards{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
+.Skills-container .row-custom.cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.Skills-container .custom-card{
-    width: 334px;
-    height: 334px;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    border-radius: 5px;
-    line-height: 75px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
+.Skills-container .custom-card {
+  width: 334px;
+  height: 334px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 5px;
+  line-height: 75px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.Skills-container .custom-card .custom-card-image {
+  margin-top: 61px;
+  line-height: 11px;
+}
+
+.Skills-container .custom-card .custom-card-heading {
+  margin-top: 31px;
+}
+
+.Skills-container .custom-card .custom-card-heading h3 {
+  margin: 0;
+}
+
+.Skills-container .custom-card .desc p {
+  line-height: 28px;
+  margin-top: 21px;
+}
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Skills-container {
     margin-top: 50px;
+  }
+  .Skills-container .row-custom.cards {
+    justify-content: space-around;
+  }
+  .Skills-container .row-custom.cards .custom-card {
+    width: 165px;
+    height: 285px;
+    margin-top: 25px;
+  }
+  .Skills-container .custom-card .custom-card-image {
+      margin-top: 30px
+  }
+  .Skills-container .custom-card .custom-card-heading{
+      margin-top: 18px;
+  }
+  .Skills-container .custom-card .custom-card-heading h3 {
+      font-size: 18px;
+  }
+  .Skills-container .custom-card .desc{
+    padding: 0 12px;
+  }
+  .Skills-container .custom-card .desc p {
+      font-size: 13px;
+      margin-bottom: 0px;
+      line-height: 23px;
+      margin-top: 0.25rem;
+  }
 }
-
-.Skills-container .custom-card .custom-card-image{
-    margin-top: 61px;
-    line-height: 11px;
-}
-
-.Skills-container .custom-card .custom-card-heading{
-    margin-top: 31px;
-}
-
-.Skills-container .custom-card .custom-card-heading h3{
-    margin:0;
-}
-
-.Skills-container .custom-card .desc p{
-    line-height: 28px;
-    margin-top: 21px;
-}
+/* Mobile END */

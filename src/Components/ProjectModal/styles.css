@@ -228,3 +228,38 @@
     width: 25px;
     margin-right: 12px;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+    .modal.fade .modal-dialog {
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    .Project-modal-container .modal-body {
+        padding: 20px 30px 30px;
+    }
+
+    .Project-modal-container .row-custom.modal-row {
+        flex-direction: column;
+    }
+
+
+    .Project-modal-container .col-text {
+        margin-top: 15px;
+    }
+
+    .Project-modal-container .row-custom.modal-row .col-image .modalImage img{
+        width: 320px;
+    }
+
+    .modal-body .heading h3 {
+        font-size: 18px;
+    }
+
+    .Project-modal-container .cta-buttons .cta-view-project {
+        font-size: 15px;
+        padding: 14px 40px;
+    }
+}
+/* Mobile END */

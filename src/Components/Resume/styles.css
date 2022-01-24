@@ -54,3 +54,23 @@
 .Resume-container .custom-tabs .nav-tabs .nav-item .nav-link:hover::before {
   opacity: 1;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Resume-container {
+    margin-top: 50px;
+  }
+  .Resume-container .custom-tabs {
+    margin-top: 25px;
+  }
+
+  .Resume-container .custom-tabs .nav-tabs {
+    width: 95%;
+  }
+
+  .Resume-container .custom-tabs .nav-tabs .nav-item .nav-link {
+    width: 180px;
+    font-size: 14px;
+  }
+}
+/* Mobile END */
