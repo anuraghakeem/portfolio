@@ -153,18 +153,54 @@
 
 /* Mobile */
 @media screen and (max-width: 1099px) {
+  .Pricing-container {
+    margin-top: 50px;
+  }
+
   .Pricing-container .para {
     width: 350px;
+    margin-top: 15px;
+  }
+
+  .Pricing-container .para p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .Pricing-container .custom-tabs {
+    margin-top: 25px;
+  }
+
+  .Pricing-container .custom-tabs .nav-tabs {
+    /* width: 98%; */
+  }
+
+  .Pricing-container .custom-tabs .nav-tabs .nav-item .nav-link {
+    width: 180px;
+    font-size: 14px;
   }
 
   .Pricing-container .custom-tabs .pricing-form {
     width: 100%;
   }
+  .Pricing-container .pricing-form-input {
+    display: flex;
+    align-items: center;
+  }
 
   .Pricing-container .pricing-form-input .input-hourstobook,
   .Pricing-container .pricing-form-input .input-ethtokenstobuy,
   .Pricing-container .pricing-form-input .input-blazetokenstobuy {
-    width: 350px;
+    width: 250px;
+    margin-right: 10px;
+  }
+
+  .Pricing-container .pricing-form-input img {
+    width: 50px;
+    height: fit-content;
+  }
+  .Pricing-container .desc:not(.para) p {
+    margin-bottom: 0;
   }
 }
 /* Mobile END*/

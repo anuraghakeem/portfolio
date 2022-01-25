@@ -66,3 +66,24 @@
 .Menubar-container .menubar-link.connect-wallet-button:hover::before {
   opacity: 1;
 }
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Menubar-container > .navbar-main {
+    height: 66px;
+    z-index: 999999;
+  }
+  .navbar-collapse {
+    box-shadow: 0px 0px 19px 0 #1c1e22;
+    background-color: #212428f2;
+  }
+  .Menubar-container .menubar-link {
+    margin-right: 0 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .Menubar-container .navbar-collapse .navbar-nav {
+    padding-bottom: 30px;
+  }
+}
+/* Mobile END */

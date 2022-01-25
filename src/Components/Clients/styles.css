@@ -25,3 +25,26 @@
 /* .Clients-container .card .card-image img{
     width: 101px;
 } */
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Clients-container {
+    margin-top: 50px;
+  }
+
+  .Clients-container .row-custom.cards {
+    justify-content: space-evenly;
+    margin-top: 0;
+  }
+
+  .Clients-container .card {
+  margin-top: 25px;
+  width: 80px;
+  height: 80px;
+  }
+
+  .Clients-container .card img{
+    width: 60px;
+  }
+}
+/* Mobile END */

@@ -189,11 +189,27 @@
 
 /* Mobile */
 @media screen and (max-width: 1099px) {
+  .Contact-container {
+    margin-top: 50px;
+  }
+
+  .Contact-container .desc {
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+  }
+
+  .Contact-container .contact-form-input label {
+    margin-bottom: 10px;
+  }
+
   .Contact-container .contact-form-input {
     width: 350px;
+    margin-top: 28px;
   }
   .Contact-container .contact-form-submit {
     width: 350px;
+    margin-top: 35px;
   }
   .Contact-container .contact-form-submit .contact-form-submit-text {
     width: 350px;

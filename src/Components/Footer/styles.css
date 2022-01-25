@@ -1,13 +1,25 @@
 .Footer-container {
-    margin-top: 115px;
-    padding-bottom: 107px;
+  margin-top: 115px;
+  padding-bottom: 107px;
+}
+
+.Footer-container .subTitle {
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+.Footer-container .desc {
+  margin-top: 14px;
+}
+
+/* Mobile */
+@media screen and (max-width: 1099px) {
+  .Footer-container {
+    margin-top: 60px;
+    padding-bottom: 55px;
   }
-
-.Footer-container .subTitle{
-    margin-top: 14px;
-    font-size: 20px;
+  .Footer-container .desc {
+    margin-top: 7px;
+  }
 }
-
-.Footer-container .desc{
-    margin-top: 14px;
-}
+/* Mobile END */
