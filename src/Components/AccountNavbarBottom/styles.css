@@ -1,0 +1,81 @@
+.AccountNavbar .navbar-main {
+  box-shadow: 0px 0px 19px 0 #1c1e22;
+  background-color: #212428de;
+  backdrop-filter: blur(15px);
+  padding: 25px 0;
+}
+
+.AccountNavbar .bottombar-text {
+  font-size: 15px;
+}
+
+.AccountNavbar .navbar-main .navbar-collapse.collapse {
+  justify-content: end;
+}
+
+.AccountNavbar .bottombar-details-right {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.AccountNavbar .navbar-main .button-secondary2 {
+  height: 56px;
+  width: 200px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  border-radius: 28px;
+  text-align: center;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+  padding: 18px 33px !important;
+}
+
+.AccountNavbar .navbar-main .button-secondary2:hover {
+  transform: translateY(-3px);
+}
+
+.AccountNavbar .navbar-main .button-secondary2::before {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.AccountNavbar .navbar-main .button-secondary2 a {
+  color: #ff004f !important;
+  text-decoration: none;
+}
+
+.AccountNavbar .navbar-collapse .navbar-nav.navbar-nav-scroll {
+  align-items: center;
+}
+
+.AccountNavbar .account-avatar {
+  margin-right: 10px;
+}
+
+/* Mobile Start */
+@media only screen and (max-width: 1099px) {
+  .AccountNavbar .navbar-collapse {
+    margin-top: 10px;
+    box-shadow: none;
+    background-color: transparent;
+    /* text-align: center; */
+  }
+  .AccountNavbar .bottombar-details-right {
+    margin-bottom: 35px;
+    margin-right: 0;
+  }
+  .AccountNavbar .navbar-light .navbar-toggler-icon {
+    /* background-image: url('../../img/common/HamburgerDark.svg'); */
+  }
+}
+/* Mobile END */

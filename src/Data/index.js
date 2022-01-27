@@ -6,6 +6,8 @@ import Accomplishments from "./Accomplishments"
 import Contact from "./Contact"
 import Education from "./Education"
 import Experience from "./Experience"
+import WalletSetup from "./WalletSetup"
+import networkEnum from './NetworkEnum'
 
 const Data = {
     Skills,
@@ -15,7 +17,9 @@ const Data = {
     Accomplishments,
     Contact,
     Education,
-    Experience
+    Experience,
+    WalletSetup,
+    networkEnum
 }
 
 export default Data;
