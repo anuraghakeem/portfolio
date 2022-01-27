@@ -67,6 +67,10 @@
   opacity: 1;
 }
 
+.bn-onboard-custom.bn-onboard-modal.svelte-rntogh{
+  z-index: 9;
+}
+
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Menubar-container > .navbar-main {

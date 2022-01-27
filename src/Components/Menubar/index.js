@@ -7,7 +7,19 @@ import Images from "../../Images";
 
 import "./styles.css";
 
-function Menubar() {
+function Menubar(props) {
+  const {
+    onboard,
+    wallet,
+    sendInternalTransaction,
+    readyToTransact,
+    sendHash,
+    sendTransaction,
+    notify,
+    address,
+    toAddress,
+    setToAddress,
+  } = props;
   const [navbarState, changeNavbarState] = useState(false);
   const { MenubarLogo } = Images;
 
@@ -57,8 +69,11 @@ function Menubar() {
                 Contact
               </Nav.Link>
               <Nav.Link
-                href="#faq"
+                href="javascript:void(0)"
                 className="connect-wallet-button menubar-link"
+                onClick={() => {
+                  onboard.walletSelect().then(onboard.walletCheck);
+                }}
               >
                 Connect Wallet
               </Nav.Link>
@@ -99,8 +114,11 @@ function Menubar() {
                   Contact
                 </Nav.Link>
                 <Nav.Link
-                  href="#faq"
+                  href="javascript:void(0)"
                   className="connect-wallet-button menubar-link"
+                  onClick={() => {
+                    onboard.walletSelect().then(onboard.walletCheck);
+                  }}
                 >
                   Connect Wallet
                 </Nav.Link>
