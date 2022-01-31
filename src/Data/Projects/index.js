@@ -4,15 +4,15 @@ const ProjectWebDevelopment = Images.ProjectWebDevelopment
 
 const Projects = [
     {
-        Heading:'Adtomica Website Development',
-        Subheading:'Web Development',
+        Heading:'Degen Apes NFT Marketplace $eth',
+        Subheading:'Web3 Development',
         Image: ProjectWebDevelopment,
         Likes:101,
         Para1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.',
         Para2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.'
     },
     {
-        Heading:'Adtomica Website Development',
+        Heading:'Adtomica Website',
         Subheading:'Web Development',
         Image: ProjectWebDevelopment,
         Likes:89,
@@ -20,7 +20,7 @@ const Projects = [
         Para2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.'
     },
     {
-        Heading:'Adtomica Website Development',
+        Heading:'Culture Group Website',
         Subheading:'Web Development',
         Image: ProjectWebDevelopment,
         Likes:67,
@@ -28,24 +28,24 @@ const Projects = [
         Para2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.'
     },
     {
-        Heading:'Adtomica Website Development',
-        Subheading:'Web Development',
+        Heading:"Cryptomica: AD's First Collection",
+        Subheading:'NFT Collection',
         Image: ProjectWebDevelopment,
         Likes:152,
         Para1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.',
         Para2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.'
     },
     {
-        Heading:'Adtomica Website Development',
-        Subheading:'Web Development',
+        Heading:"Can't Turn on MS Teams Camera $eth",
+        Subheading:'Web3 Development',
         Image: ProjectWebDevelopment,
         Likes:33,
         Para1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.',
         Para2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.'
     },
     {
-        Heading:'Adtomica Website Development',
-        Subheading:'Web Development',
+        Heading:'Solagram Social Platform $sol',
+        Subheading:'Web3 Development',
         Image: ProjectWebDevelopment,
         Likes:91,
         Para1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue consequat vehicula. Praesent odio quam, tempor eget enim blandit, auctor placerat turpis. Integer varius, justo a fringilla dictum, quam justo ultrices tortor, eget dictum.',

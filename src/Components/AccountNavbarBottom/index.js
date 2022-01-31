@@ -31,11 +31,11 @@ function AccountNavbarBottom(props){
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse>
               <Nav className="my-2 my-lg-0" navbarScroll>
-                <div className='bottombar-details-right'><div className="bottombar-text">Balance: {Number(balance) > 0 ? Math.trunc((balance / 1000000000000000000)*1000000)/1000000 : '0'}{' '}ETH</div></div>
+                <div className='bottombar-details-right'><div className="bottombar-text">Balance: <span className="text-red">{Number(balance) > 0 ? Math.trunc((balance / 1000000000000000000)*1000000)/1000000 : '0'}{' '}ETH</span></div></div>
                 {/* <div className="bottombar-details-right">
                   <div className="bottombar-text">Balance: 1 ETH</div>
                 </div> */}
-                <div className='bottombar-details-right'><div className="bottombar-text">Network: {networkEnum?.[Number(network)] || 'local'}</div></div>
+                <div className='bottombar-details-right'><div className="bottombar-text">Network: <span className="text-red">{networkEnum?.[Number(network)] || 'local'}</span></div></div>
                 {/* <div className="bottombar-details-right">
                   <div className="bottombar-text">Network: local</div>
                 </div> */}

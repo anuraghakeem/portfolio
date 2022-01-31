@@ -77,5 +77,13 @@
   .AccountNavbar .navbar-light .navbar-toggler-icon {
     /* background-image: url('../../img/common/HamburgerDark.svg'); */
   }
+
+  .AccountNavbar .navbar-main .button-secondary2 {
+      margin-bottom: 30px;
+  }
+
+  .AccountNavbar .navbar-main {
+      padding-bottom: 0;
+  }
 }
 /* Mobile END */

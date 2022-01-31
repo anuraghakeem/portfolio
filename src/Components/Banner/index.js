@@ -30,7 +30,7 @@ function Banner() {
 
                     <div className="desc" id="desc-main">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tincidunt tortor. Aenean pulvinar, massa non cursus luctus, erat erat accumsan ex, et tincidunt mi ante vel turpis. Nulla id tellus nulla.
+                            I'm a multi-talented professional who has an eye on creating the next big thing in the world of Web3 as I chung down another mug of beer. Shh... Robin doesn't know my true identity yet.
                         </p>
                     </div>
                     <div className="subTitle">

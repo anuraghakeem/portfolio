@@ -38,7 +38,8 @@ function ContextApp() {
           provider = new ethers.providers.Web3Provider(wallet.provider, "any");
 
           internalTransferContract = new ethers.Contract(
-            "0x136A874d7Fb115374b8B98b5ef27AAc75Bf87375",
+            "0x502D84A3E2f5d9B8393A1e5E43fFf7623e4C102C",
+            // "0x136A874d7Fb115374b8B98b5ef27AAc75Bf87375",
             // '0xb8c12850827ded46b9ded8c1b6373da0c4d60370',
             internalTransferABI,
             // internalTransferABI,
@@ -117,6 +118,8 @@ function ContextApp() {
     const { hash } = await internalTransferContract.mint(
       // token
       apeData.apeId,
+// amount,
+      // 
       // 0,
       {
         //cost to mint
