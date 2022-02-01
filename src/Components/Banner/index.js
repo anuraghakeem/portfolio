@@ -11,7 +11,7 @@ function Banner() {
             <div className="row-custom">
                 <div className="col-text">
                     <div className="subTitle">
-                        Welcome to my world
+                        Welcome to my world of web3
                     </div>
                     <div className="title-primary">
                         <h2>Hi, I’m <span className='text-red'>Anurag Hakeem</span></h2>

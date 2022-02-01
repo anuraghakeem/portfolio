@@ -60,7 +60,7 @@ function ProjectModal(props) {
               </div>
               <div className="row-custom cta-row">
                 <div className="cta-buttons">
-                  <a className='cta-view-project text-red' href='https://adtomica.co/' target='_blank'>
+                  <a className='cta-view-project text-red' href={selectedProject.Url} target='_blank'>
                     View Project
                   </a>
                 </div>
