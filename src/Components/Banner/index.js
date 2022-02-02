@@ -39,7 +39,7 @@ function Banner() {
           <div className="desc" id="desc-main">
             <p>
               I'm a multi-talented professional who has an eye on creating the
-              next big thing in the world of Web3 as I chugged down another mug of
+              next big thing in the world of Web3 as I chug down another mug of
               beer. Shh... Robin doesn't know my true identity yet.
             </p>
           </div>
