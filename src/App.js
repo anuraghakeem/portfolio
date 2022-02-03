@@ -47,8 +47,8 @@ function App(props) {
         <Divider />
         <Clients />
         <Divider />
-        <Pricing />
-        <Divider />
+        {/* <Pricing />
+        <Divider /> */}
         <Contact />
         <Divider />
         <Footer />

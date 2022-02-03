@@ -42,7 +42,7 @@ function Projects() {
     )
     return (
         <>
-            <section className='Projects-container'>
+            <section className='Projects-container' id='Projects-container'>
                 <div className="row-custom">
                     <div className="col-text">
                         <div className="subTitle text-red">

@@ -33,19 +33,19 @@ function Contact() {
     changePersonName(name.target.value);
   }
   return (
-    <section className="Contact-container">
+    <section className="Contact-container" id="Contact-container">
       <div className="row-custom">
         <div className="col-text">
           <div className="subTitle text-red">Let's Talk</div>
           <div className="title-primary">
             <h2>Contact</h2>
           </div>
-          <div className="desc">
+          {/* <div className="desc">
             <p>
               You need to hodl at least 1 $BLZ to schedule a call with me.{" "}
               <a className="text-red">Buy $BLZ here.</a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="row-custom contact-form">

@@ -1,5 +1,5 @@
 .Contact-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Contact-container .desc {
@@ -42,16 +42,16 @@
 .Contact-container .contact-form-input .input-time .rw-popup .rw-list,
 .Contact-container .contact-form-input .input-date .rw-widget-picker,
 .Contact-container .contact-form-input .input-email {
-  background: linear-gradient(145deg, #1e2024, #23272b);
+  /* background: linear-gradient(145deg, #1e2024, #23272b); */
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
   border-radius: 5px;
   border: 0;
-  color: #fff;
+  /* color: #fff; */
 }
 .Contact-container .contact-form-input .input-name:focus-visible,
 .Contact-container .contact-form-input .input-email:focus-visible {
-  background: linear-gradient(145deg, #1e2024, #23272b);
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  /* background: linear-gradient(145deg, #1e2024, #23272b); */
+  /* box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; */
   border-radius: 5px;
   outline-width: 0;
 }
@@ -66,7 +66,8 @@
   .input-date
   .rw-widget-picker
   #rw_3_input {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   background-color: transparent;
 }
 
@@ -75,7 +76,8 @@
   .input-date
   .rw-widget-picker
   .rw-picker-btn {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background: linear-gradient(to right bottom, #212428, #16181c);
   border: none;
 }
 
@@ -93,7 +95,8 @@
   .rw-widget-picker
   .rw-picker-btn
   svg {
-  fill: #fff;
+  /* fill: #fff; */
+  fill: #ff004f;
 }
 
 .Contact-container .contact-form-input .input-date .rw-calendar-popup {
@@ -119,7 +122,9 @@
 }
 
 .Contact-container .contact-form-input .input-time .rw-popup .rw-list-option {
-  color: #fff;
+  /* color: #fff; */
+  font-weight: 600;
+  color: #000;
   transition: all 0.3s;
   height: 50px;
   border: none;
@@ -134,7 +139,8 @@
   .rw-popup
   .rw-list-option:hover {
   border: none;
-  background: linear-gradient(to right bottom, #212428, #16181c);
+  /* background: linear-gradient(to right bottom, #212428, #16181c); */
+  background-color: #ff004f;
 }
 .Contact-container
   .contact-form-input
@@ -190,7 +196,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Contact-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .Contact-container .desc {

@@ -1,5 +1,5 @@
 .Resume-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Resume-container .custom-tabs {
@@ -58,7 +58,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Resume-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
   .Resume-container .custom-tabs {
     margin-top: 25px;

@@ -1,5 +1,5 @@
 .Skills-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Skills-container .row-custom.cards {
@@ -18,7 +18,12 @@
   text-align: center;
   position: relative;
   display: inline-block;
-  margin-top: 50px;
+  display: flex;
+  margin: 50px auto 0;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 24px;
 }
 
 .Skills-container .custom-card .custom-card-image {
@@ -42,7 +47,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Skills-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
   .Skills-container .row-custom.cards {
     justify-content: space-around;

@@ -1,5 +1,5 @@
 .Clients-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Clients-container .row-custom.cards {
@@ -29,7 +29,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Clients-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .Clients-container .row-custom.cards {
@@ -44,7 +44,8 @@
   }
 
   .Clients-container .card img{
-    width: 60px;
+    max-width: 50px;
+    max-height: 50px;
   }
 }
 /* Mobile END */

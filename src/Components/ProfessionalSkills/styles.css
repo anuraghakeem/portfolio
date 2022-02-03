@@ -34,5 +34,19 @@
     width: 80px;
     margin-top: 25px;
   }
+  
+  .row-custom.custom-tab .custom-icon .custom-icon-image{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .row-custom.custom-tab .custom-icon .custom-icon-image img{
+    max-width: 70px;
+  }
+  .row-custom.custom-tab .custom-icon .custom-icon-title {
+    font-size: 12px;
+  }
 }
 /* Mobile END */

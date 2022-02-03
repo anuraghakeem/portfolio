@@ -7,11 +7,11 @@ function Skills() {
     const SkillCards = SkillsData.map((skill, key) => {
         return (
             <div className='custom-card'>
-                <div className='custom-card-image'>
+                {/* <div className='custom-card-image'>
                     <img src={skill.Image}></img>
-                </div>
+                </div> */}
                 <div className='custom-card-heading'>
-                    <h3>{skill.Heading}</h3>
+                    <h3 className="text-red">{skill.Heading}</h3>
                 </div>
                 <div className="desc">
                     <p>
@@ -23,7 +23,7 @@ function Skills() {
     }
     )
     return (
-        <section className='Skills-container'>
+        <section className='Skills-container' id='Skills-container'>
             <div className="row-custom">
                 <div className="col-text">
                     <div className="subTitle text-red">

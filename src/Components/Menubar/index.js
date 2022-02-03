@@ -50,25 +50,25 @@ function Menubar(props) {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse className="justify-content-end">
             <Nav className="my-2 my-lg-0" navbarScroll>
-              <Nav.Link href="#rare-apes" className="menubar-link">
+              <Nav.Link href="#Skills-container" className="menubar-link">
                 Skills
               </Nav.Link>
-              <Nav.Link href="#top-traits" className="menubar-link">
+              <Nav.Link href="#Projects-container" className="menubar-link">
                 Projects
               </Nav.Link>
-              <Nav.Link href="#connet-wallet" className="menubar-link">
+              <Nav.Link href="#Resume-container" className="menubar-link">
                 Resume
               </Nav.Link>
-              <Nav.Link href="#stay-updated" className="menubar-link">
+              <Nav.Link href="#Clients-container" className="menubar-link">
                 Clients
               </Nav.Link>
-              <Nav.Link href="#faq" className="menubar-link">
+              {/* <Nav.Link href="#faq" className="menubar-link">
                 Pricing
-              </Nav.Link>
-              <Nav.Link href="#faq" className="menubar-link">
+              </Nav.Link> */}
+              <Nav.Link href="#Contact-container" className="menubar-link">
                 Contact
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href="javascript:void(0)"
                 className="connect-wallet-button menubar-link"
                 onClick={() => {
@@ -76,7 +76,7 @@ function Menubar(props) {
                 }}
               >
                 Connect Wallet
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -95,25 +95,25 @@ function Menubar(props) {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse className="justify-content-end">
               <Nav className="my-2 my-lg-0" navbarScroll>
-                <Nav.Link href="#rare-apes" className="menubar-link">
+                <Nav.Link href="#Skills-container" className="menubar-link">
                   Skills
                 </Nav.Link>
-                <Nav.Link href="#top-traits" className="menubar-link">
+                <Nav.Link href="#Projects-container" className="menubar-link">
                   Projects
                 </Nav.Link>
-                <Nav.Link href="#connet-wallet" className="menubar-link">
+                <Nav.Link href="#Resume-container" className="menubar-link">
                   Resume
                 </Nav.Link>
-                <Nav.Link href="#stay-updated" className="menubar-link">
+                <Nav.Link href="#Clients-container" className="menubar-link">
                   Clients
                 </Nav.Link>
-                <Nav.Link href="#faq" className="menubar-link">
+                {/* <Nav.Link href="#faq" className="menubar-link">
                   Pricing
-                </Nav.Link>
-                <Nav.Link href="#faq" className="menubar-link">
+                </Nav.Link> */}
+                <Nav.Link href="#Contact-container" className="menubar-link">
                   Contact
                 </Nav.Link>
-                <Nav.Link
+                {/* <Nav.Link
                   href="javascript:void(0)"
                   className="connect-wallet-button menubar-link"
                   onClick={() => {
@@ -121,7 +121,7 @@ function Menubar(props) {
                   }}
                 >
                   Connect Wallet
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -13,7 +13,7 @@ function Resume() {
   const [key, setKey] = useState("prefessionalSkills");
   return (
     <>
-      <section className="Resume-container">
+      <section className="Resume-container" id="Resume-container">
         <div className="row-custom">
           <div className="col-text">
             <div className="subTitle text-red">Know More</div>

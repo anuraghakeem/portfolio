@@ -1,67 +1,67 @@
-import Images from "../../Images"
+// import Images from "../../Images"
 
-const SkillUxStrategy = Images.SkillUxStrategy
+// const SkillUxStrategy = Images.SkillUxStrategy
 
 const Skills =[
     {
         Heading:'Web3',
         Desc:'I develop web3 based websites to help people interact with their crypto wallets',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'UI Design',
         Desc:'I design UI for web and mobile for global brands to help create the most optimal experience',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'UI Development',
         Desc:'I develop websites for global brands  to help them reach millions of people',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'UX Strategy',
         Desc:'I develop strategic plans for products based on consumer  & market research',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Wordpress',
         Desc:'I develop and deploy world class websites to help create optimal CMS solutions for global brands',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Project Management',
         Desc:'I strategically plan and lead teams to help brands execute and deliver their product on time',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Social Media',
         Desc:'I handle social media profiles for global brands on Facebook, Instagram and Linkedin',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Graphic Design',
         Desc:'I create static designs for both digital and offline collaterals for global brands',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Video Editing',
         Desc:'I create videos for brands from storyboarding and shooting to post production and VO',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Email Marketing',
         Desc:'I design and develop eDMs for  for platforms like Hubspot, Mailchimp & Leadsquared',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Google Analytics',
         Desc:'I handle GA for brands and connect  to their websites for performance analysis',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     },
     {
         Heading:'Interactive Media Ads',
         Desc:'I design and develop rich media Google Ads for global brands',
-        Image: SkillUxStrategy
+        // Image: SkillUxStrategy
     }
 ]
 

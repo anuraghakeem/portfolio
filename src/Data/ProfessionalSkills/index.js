@@ -1,148 +1,184 @@
 import Images from "../../Images"
 
-const {TechnologyHtml5} = Images
+const {
+    TechnologyHtml5,
+    SkillAdobeAfterEffects,
+    SkillAdobeAudition,
+    SkillAdobeIllustrator,
+    SkillAdobePhotoshop,
+    SkillAdobePremierepro,
+    SkillAdobeXD,
+    SkillBootstrap,
+    SkillCanva,
+    SkillCPanel,
+    SkillCss,
+    SkillDialogflow,
+    SkillExcel,
+    SkillFigma,
+    SkillGithub,
+    SkillGoogleAnalytics,
+    SkillGraphDB,
+    SkillHandlebar,
+    SkillHtml5,
+    SkillJavascript,
+    SkillJira,
+    SkilllGitlab,
+    SkillMaterialUI,
+    SkillMonday,
+    SkillPowerpoint,
+    SkillReactjs,
+    SkillRedux,
+    SkillScss,
+    SkillSolidity,
+    SkillSparkAR,
+    SkillVercel,
+    SkillWebDesigner,
+    SkillWix,
+    SkillWordpress,
+    SkillWord,
+} = Images
 
 const ProfessionalSkills = {
         Technology: [
             {
                 Title: 'HTML 5',
-                Image:TechnologyHtml5
+                Image:SkillHtml5
             },
             {
                 Title: 'CSS',
-                Image:TechnologyHtml5
+                Image:SkillCss
             },
             {
                 Title: 'SCSS',
-                Image:TechnologyHtml5
+                Image:SkillScss
             },
             {
                 Title: 'Javascript',
-                Image:TechnologyHtml5
+                Image:SkillJavascript
             },
             {
                 Title: 'Reactjs',
-                Image:TechnologyHtml5
+                Image:SkillReactjs
             },
             {
                 Title: 'Handlebar js',
-                Image:TechnologyHtml5
+                Image:SkillHandlebar
             },
             {
                 Title: 'Graph DB',
-                Image:TechnologyHtml5
+                Image:SkillGraphDB
             },
             {
                 Title: 'React Bootstrap',
-                Image:TechnologyHtml5
+                Image:SkillBootstrap
             },
             {
                 Title: 'Material-UI',
-                Image:TechnologyHtml5
+                Image:SkillMaterialUI
             },
             {
                 Title: 'Redux',
-                Image:TechnologyHtml5
+                Image:SkillRedux
             },
             {
                 Title: 'Wordpress',
-                Image:TechnologyHtml5
+                Image:SkillWordpress
             },
             {
                 Title: 'Wix',
-                Image:TechnologyHtml5
+                Image:SkillWix
             },
             {
                 Title: 'Solidity',
-                Image:TechnologyHtml5
+                Image:SkillSolidity
             },
             {
                 Title: 'Spark AR',
-                Image:TechnologyHtml5
+                Image:SkillSparkAR
             },
             {
                 Title: 'Dialogflow',
-                Image:TechnologyHtml5
+                Image:SkillDialogflow
             },
             {
                 Title: 'Github',
-                Image:TechnologyHtml5
+                Image:SkillGithub
             },
             {
                 Title: 'Gitlab',
-                Image:TechnologyHtml5
+                Image:SkilllGitlab
             },
             {
                 Title: 'Vercel',
-                Image:TechnologyHtml5
+                Image:SkillVercel
             },
             {
                 Title: 'CPanel',
-                Image:TechnologyHtml5
+                Image:SkillCPanel
             },
             {
                 Title: 'Google Analytics',
-                Image:TechnologyHtml5
+                Image:SkillGoogleAnalytics
             },
         ],
         Creative: [
             {
                 Title: 'Adobe XD',
-                Image:TechnologyHtml5
+                Image:SkillAdobeXD
             },
             {
                 Title: 'Photoshop',
-                Image:TechnologyHtml5
+                Image:SkillAdobePhotoshop
             },
             {
                 Title: 'Illustrator',
-                Image:TechnologyHtml5
+                Image:SkillAdobeIllustrator
             },
             {
                 Title: 'Aftereffects',
-                Image:TechnologyHtml5
+                Image:SkillAdobeAfterEffects
             },
             {
                 Title: 'Premier Pro',
-                Image:TechnologyHtml5
+                Image:SkillAdobePremierepro
             },
             {
                 Title: 'Figma',
-                Image:TechnologyHtml5
+                Image:SkillFigma
             },
             {
                 Title: 'Canva',
-                Image:TechnologyHtml5
+                Image:SkillCanva
             },
             {
-                Title: 'Audacity',
-                Image:TechnologyHtml5
+                Title: 'Audition',
+                Image:SkillAdobeAudition
             },
             {
                 Title: 'Google Web Designer',
-                Image:TechnologyHtml5
+                Image:SkillWebDesigner
             },
         ],
         ProjectManagement: [
             {
                 Title: 'Jira',
-                Image:TechnologyHtml5
+                Image:SkillJira
             },
             {
                 Title: 'Monday.com',
-                Image:TechnologyHtml5
+                Image:SkillMonday
             },
             {
                 Title: 'MS Excel',
-                Image:TechnologyHtml5
+                Image:SkillExcel
             },
             {
                 Title: 'MS Powerpoint',
-                Image:TechnologyHtml5
+                Image:SkillPowerpoint
             },
             {
                 Title: 'MS Word',
-                Image:TechnologyHtml5
+                Image:SkillWord
             },
         ],
 

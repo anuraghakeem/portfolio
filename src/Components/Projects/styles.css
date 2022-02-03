@@ -1,5 +1,5 @@
 .Projects-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Projects-container .row-custom.custom-cards {
@@ -69,7 +69,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Projects-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .Projects-container .row-custom.custom-cards {

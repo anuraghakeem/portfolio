@@ -14,7 +14,7 @@ function Clients() {
     );
   });
   return (
-    <section className="Clients-container">
+    <section className="Clients-container" id="Clients-container">
       <div className="row-custom">
         <div className="col-text">
           <div className="subTitle text-red">Worked For The Best</div>
