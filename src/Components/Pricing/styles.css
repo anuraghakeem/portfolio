@@ -1,5 +1,5 @@
 .Pricing-container {
-  margin-top: 95px;
+  padding-top: 95px;
 }
 
 .Pricing-container .desc {
@@ -154,7 +154,7 @@
 /* Mobile */
 @media screen and (max-width: 1099px) {
   .Pricing-container {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   .Pricing-container .para {

@@ -25,6 +25,16 @@ const Accomplishments = {
     ],
     Certifications: [
         {
+            Title: 'Intro to Web3',
+            Desc: "Issued by - Buildspace",
+            Url: 'https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/12141',
+        },
+        {
+            Title: 'Build a Solana App',
+            Desc: "Issued by - Buildspace",
+            Url: 'https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/12920',
+        },
+        {
             Title: 'Web Developer Bootcamp',
             Desc: "Issued by - Udemy",
             Url: 'https://www.udemy.com/certificate/UC-5IP2YBIH/',
