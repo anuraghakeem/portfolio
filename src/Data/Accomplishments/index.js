@@ -25,6 +25,11 @@ const Accomplishments = {
     ],
     Certifications: [
         {
+            Title: 'Build a domain service on Polygon',
+            Desc: "Issued by - Buildspace",
+            Url: 'https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/13815',
+        },
+        {
             Title: 'Intro to Web3',
             Desc: "Issued by - Buildspace",
             Url: 'https://opensea.io/assets/matic/0x3cd266509d127d0eac42f4474f57d0526804b44e/12141',
