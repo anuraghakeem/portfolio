@@ -45,6 +45,16 @@ function ProfessionalSkills() {
     )
     return (
         <>
+        <div className="row-custom custom-tab">
+                <div className="col-text">
+                    <div className="heading text-red">
+                        Product Management
+                    </div>
+                </div>
+                <div className="col-icons">
+                    {ProjectManagementIcons}
+                </div>
+            </div>
             <div className="row-custom custom-tab">
                 <div className="col-text">
                     <div className="heading text-red">
@@ -63,16 +73,6 @@ function ProfessionalSkills() {
                 </div>
                 <div className="col-icons">
                     {CreativeIcons}
-                </div>
-            </div>
-            <div className="row-custom custom-tab">
-                <div className="col-text">
-                    <div className="heading text-red">
-                        Project Management
-                    </div>
-                </div>
-                <div className="col-icons">
-                    {ProjectManagementIcons}
                 </div>
             </div>
         </>

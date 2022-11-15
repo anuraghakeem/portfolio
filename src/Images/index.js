@@ -83,6 +83,12 @@ import SkillWebDesigner from './Home/SkillWebDesigner.svg'
 import SkillWix from './Home/SkillWix.svg'
 import SkillWord from './Home/SkillWord.svg'
 import SkillWordpress from './Home/SkillWordpress.svg'
+import agile from './Home/agile.svg'
+import designAndWireframe from './Home/designAndWireframe.svg'
+import GTM from './Home/GTM.svg'
+import productAnalytics from './Home/productAnalytics.svg'
+import productRoadmap from './Home/productRoadmap.svg'
+import productStrategy from './Home/productStrategy.svg'
 
 const Images ={
     BannerImage,
@@ -169,7 +175,13 @@ const Images ={
     ProjectsArteboost,
     CaseStudyFrontRow,
     CaseStudyMudrex,
-    CaseStudyMeesho
+    CaseStudyMeesho,
+    agile,
+    designAndWireframe,
+    GTM,
+    productAnalytics,
+    productRoadmap,
+    productStrategy,
 }
 
 export default Images
