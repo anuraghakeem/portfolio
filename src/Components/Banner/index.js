@@ -10,7 +10,7 @@ function Banner() {
     <section className="banner-container">
       <div className="row-custom">
         <div className="col-text">
-          <div className="subTitle">Welcome to my world of web3</div>
+          <div className="subTitle">Welcome to my metverse</div>
           <div className="title-primary">
             <h2>
               Hi, I’m <span className="text-red">Anurag Hakeem</span>
@@ -20,12 +20,12 @@ function Banner() {
             <Typewriter
               options={{
                 strings: [
+                  "Product Manager",
                   "Creative Technologist",
                   "Web3 Developer",
                   "UI Developer",
                   "UI Designer",
                   "UX Strategist",
-                  "Project Manager",
                   "Batman",
                 ],
                 autoStart: true,
@@ -38,9 +38,11 @@ function Banner() {
 
           <div className="desc" id="desc-main">
             <p>
-              I'm a multi-talented professional who has an eye on creating the
-              next big thing in the world of Web3 as I chug down another mug of
-              beer. Shh... Robin doesn't know my true identity yet.
+              A proactive product manager with an experience of 4+ years of
+              experience in web3 products, UI/UX, product marketing & strategy,
+              brand building, web development, augmented reality, chatbots,
+              video editing, story boarding, social media management, email
+              marketing & Product Analytics.
             </p>
           </div>
           <div className="subTitle">Find out more</div>
