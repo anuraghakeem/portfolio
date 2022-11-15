@@ -20,6 +20,9 @@ import ClientsAG from './Home/ClientsAG.png'
 import ClientsAlt from './Home/ClientsAlt.png'
 import ClientsAltria from './Home/ClientsAltria.png'
 import ClientsCG from './Home/ClientsCG.png'
+import ProjectsCBWeb from './Home/ProjectsCBWeb.png'
+import ProjectsHR from './Home/ProjectsHR.png'
+import ProjectsFM from './Home/ProjectsFM.png'
 import ClientsColorbar from './Home/ClientsColorbar.png'
 import ClientsDroom from './Home/ClientsDroom.png'
 import ClientsFM from './Home/ClientsFM.png'
@@ -152,7 +155,9 @@ const Images ={
     SkillWix,
     SkillWordpress,
     SkillWord,
-
+    ProjectsHR,
+    ProjectsCBWeb,
+    ProjectsFM,
 }
 
 export default Images

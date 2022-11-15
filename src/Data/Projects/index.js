@@ -7,7 +7,10 @@ const {
     ProjectsDegenApes,
     ProjectsSolanagram,
     ProjectsTeamsBlockchain,
-    ProjectsAdtomicaWeb
+    ProjectsAdtomicaWeb,
+    ProjectsCBWeb,
+    ProjectsHR,
+    ProjectsFM,
 } = Images
 
 const Projects = [
@@ -30,6 +33,16 @@ const Projects = [
         Url: "https://adtomica.co/",
     },
     {
+        Heading:'Colorbar Cosmetics Revamp',
+        Subheading:'Web Development',
+        Image: ProjectsCBWeb,
+        Likes:67,
+        Para1:"Colorbar Cosmetics is one the leading cosmetics brand and India and across the globe. During this project, I redesigned the entire user experience of the ecommerce platform to make the user journey more seamless from product discovery to order fullfilment.",
+        Para2:'Stack: Adobe XD, Shopify',
+        Url: "https://www.colorbarcosmetics.com/",
+
+    },
+    {
         Heading:'Culture Group Website',
         Subheading:'Web Development',
         Image: ProjectsCGWeb,
@@ -37,6 +50,26 @@ const Projects = [
         Para1:"Culture Group is your new 'agency' partner that serves as a creative and commercial bridge between brands and culture, enabling you to create business outcomes in Asia's most dynamic cities.",
         Para2:'Stack: Adobe XD, Wordpress, MySQL',
         Url: "https://culturegroup.asia/",
+
+    },
+    {
+        Heading:'HumanRace Asia',
+        Subheading:'Web Development',
+        Image: ProjectsHR,
+        Likes:67,
+        Para1:"Human R.A.C.E. is a platform that gives a voice to athletes with intellectual disabilities and the community around them. Powered by Special Olympics Asia Pacific.",
+        Para2:'Stack: Adobe XD, Wordpress, MySQL',
+        Url: "https://humanrace.asia/",
+
+    },
+    {
+        Heading:'Fat Mario',
+        Subheading:'Web Development',
+        Image: ProjectsFM,
+        Likes:67,
+        Para1:"Fat Mario is a successfull Italian restaurant in Sinagpore. I designed and devloped their website to increase the online presence.",
+        Para2:'Stack: Adobe XD, Wix',
+        Url: "https://www.fatmario.com/",
 
     },
     {
