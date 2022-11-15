@@ -8,9 +8,9 @@ function Footer() {
     <section className="Footer-container">
       <div className="row-custom">
         <div className="col-text">
-            <div className="footer-image">
+            {/* <div className="footer-image">
                 <img src={FooterImage}></img>
-            </div>
+            </div> */}
           <div className="subTitle text-red">ANURAG</div>
           <div className="desc">
             <p>© All Rights Reserved</p>
