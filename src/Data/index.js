@@ -1,6 +1,7 @@
 import Skills from "./Skills"
 import Clients from "./Clients"
 import Projects from "./Projects"
+import CaseStudy from "./ProductCaseStudy"
 import ProfessionalSkills from "./ProfessionalSkills"
 import Accomplishments from "./Accomplishments"
 import Contact from "./Contact"
@@ -13,6 +14,7 @@ const Data = {
     Skills,
     Clients,
     Projects,
+    CaseStudy,
     ProfessionalSkills,
     Accomplishments,
     Contact,

@@ -5,6 +5,7 @@ import Divider from "./Components/Divider";
 import Skills from "./Components/Skills";
 import Clients from "./Components/Clients";
 import Projects from "./Components/Projects";
+import ProductCaseStudy from "./Components/ProductCaseStudy";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Pricing from "./Components/Pricing";
@@ -40,6 +41,8 @@ function App(props) {
         <Banner />
         <Divider />
         <Skills />
+        <Divider />
+        <ProductCaseStudy />
         <Divider />
         <Projects />
         <Divider />
