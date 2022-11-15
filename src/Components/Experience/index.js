@@ -13,9 +13,9 @@ function Experience() {
     return (
       <VerticalTimelineElement className="custom-vertical-timeline-element">
         <div className="custom-content-top">
-          <div className="custom-col-image">
+          {/* <div className="custom-col-image">
             <img src={experience.Image}></img>
-          </div>
+          </div> */}
           <div className="custom-col-text">
             <div className="custom-col-text-heading">{experience.Title}</div>
             <div className="custom-col-text-subheading text-red">
