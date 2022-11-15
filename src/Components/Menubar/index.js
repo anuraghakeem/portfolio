@@ -101,6 +101,9 @@ function Menubar(props) {
                 <Nav.Link href="#Skills-container" className="menubar-link">
                   Skills
                 </Nav.Link>
+                <Nav.Link href="#CaseStudy-container" className="menubar-link">
+                Case Study
+              </Nav.Link>
                 <Nav.Link href="#Projects-container" className="menubar-link">
                   Projects
                 </Nav.Link>
