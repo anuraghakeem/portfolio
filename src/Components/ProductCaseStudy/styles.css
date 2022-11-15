@@ -1,14 +1,14 @@
-.Projects-container {
+.CaseStudy-container {
   padding-top: 95px;
 }
 
-.Projects-container .row-custom.custom-cards {
+.CaseStudy-container .row-custom.custom-cards {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.Projects-container .custom-card {
+.CaseStudy-container .custom-card {
   width: 334px;
   height: 416px;
   background: linear-gradient(145deg, #1e2024, #23272b);
@@ -26,11 +26,11 @@
   cursor: pointer;
 }
 
-.Projects-container .custom-card:hover {
+.CaseStudy-container .custom-card:hover {
   transform: translateY(-3px);
 }
 
-.Projects-container .custom-card::before {
+.CaseStudy-container .custom-card::before {
   background: linear-gradient(to right bottom, #212428, #16181c);
   width: 100%;
   height: 100%;
@@ -44,51 +44,51 @@
   content: "";
 }
 
-.Projects-container .custom-card:hover::before {
+.CaseStudy-container .custom-card:hover::before {
   opacity: 1;
 }
 
-.Projects-container .custom-card .custom-card-image img {
+.CaseStudy-container .custom-card .custom-card-image img {
   width: 287px;
 }
 
-.Projects-container .custom-card .subTitle {
+.CaseStudy-container .custom-card .subTitle {
   margin-top: 21px;
   display: flex;
   justify-content: space-between;
 }
 
-.Projects-container .custom-card .custom-card-heading {
+.CaseStudy-container .custom-card .custom-card-heading {
   margin-top: 20px;
 }
 
-.Projects-container .custom-card .custom-card-heading h3 {
+.CaseStudy-container .custom-card .custom-card-heading h3 {
   margin: 0;
 }
 
 /* Mobile */
 @media screen and (max-width: 1099px) {
-  .Projects-container {
+  .CaseStudy-container {
     padding-top: 50px;
   }
 
-  .Projects-container .row-custom.custom-cards {
+  .CaseStudy-container .row-custom.custom-cards {
     justify-content: space-around
   }
 
-  .Projects-container .custom-card {
+  .CaseStudy-container .custom-card {
     width: 170px;
     height:300px;
     margin-top: 25px;
     padding: 13px 12px 21px 12px;
   }
-  .Projects-container .custom-card .custom-card-image img {
+  .CaseStudy-container .custom-card .custom-card-image img {
     width:148px;
   }
-  .Projects-container .custom-card .custom-card-heading {
+  .CaseStudy-container .custom-card .custom-card-heading {
     margin-top:5px;
   }
-  .Projects-container .custom-card .custom-card-heading h3 {
+  .CaseStudy-container .custom-card .custom-card-heading h3 {
     font-size:15px;
     line-height: 25px;
   }
