@@ -4,12 +4,12 @@
 
 const Skills =[
     {
-        Heading:'Web3',
-        Desc:'I develop web3 based websites to help people interact with their crypto wallets',
+        Heading:'Product Management',
+        Desc:'I strategically plan and lead teams to help brands execute and deliver their product from 0 to 1',
         // Image: SkillUxStrategy
     },
     {
-        Heading:'UI Design',
+        Heading:'Product Design',
         Desc:'I design UI for web and mobile for global brands to help create the most optimal experience',
         // Image: SkillUxStrategy
     },
@@ -19,18 +19,18 @@ const Skills =[
         // Image: SkillUxStrategy
     },
     {
-        Heading:'UX Strategy',
+        Heading:'Web3',
+        Desc:'I develop web3 based websites to help people interact with their crypto wallets',
+        // Image: SkillUxStrategy
+    },
+    {
+        Heading:'UX/UI Strategy',
         Desc:'I develop strategic plans for products based on consumer  & market research',
         // Image: SkillUxStrategy
     },
     {
         Heading:'Wordpress',
         Desc:'I develop and deploy world class websites to help create optimal CMS solutions for global brands',
-        // Image: SkillUxStrategy
-    },
-    {
-        Heading:'Project Management',
-        Desc:'I strategically plan and lead teams to help brands execute and deliver their product on time',
         // Image: SkillUxStrategy
     },
     {
