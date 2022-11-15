@@ -63,7 +63,7 @@ function Banner() {
                 <img src={Github}></img>
               </a>
             </div>
-            <div className="col-33">
+            {/* <div className="col-33">
               <a
                 className="social-button"
                 href="https://www.behance.net/anuraghakeem"
@@ -71,7 +71,7 @@ function Banner() {
               >
                 <img src={Behance}></img>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-image">
