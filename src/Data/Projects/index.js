@@ -11,18 +11,11 @@ const {
     ProjectsCBWeb,
     ProjectsHR,
     ProjectsFM,
+    ProjectsArtemisMar,
+    ProjectsArtHub
 } = Images
 
 const Projects = [
-    {
-        Heading:'Degen Apes NFT Marketplace $eth',
-        Subheading:'Web3 Development',
-        Image: ProjectsDegenApes,
-        Likes:101,
-        Para1: "Welcome to the academy of the smoothest brained apes in the cryptoverse. Each of the Degen Ape is created with it's own set of unique traits. These traits define the rarity and authenticity of the ape. Higher the % of a trait, more valuable is the ape.",
-        Para2: "You can login from wallets like Metamask, Portis, WalletConnect, Coinbase, Authereum& Trezor. You can mint your favorite apes on the marketplace and view & sell your NFTs from the Opensea collection. Stack: Adobe XD, Reactjs, React-Bootstrap, Solidity",
-        Url: "https://degenapes.vercel.app/",
-    },
     {
         Heading:'Adtomica Website',
         Subheading:'Web Development',
@@ -53,6 +46,22 @@ const Projects = [
 
     },
     {
+        Heading:'Artemis Market',
+        Subheading:'Web & App Development',
+        Image: ProjectsArtemisMar,
+        Likes:67,
+        Para1:"Product Manger for Atemis Market which is the world's first decentralized mobile-focused social cross-chain NFT platform.",
+        Para2:'Stack: Adobe XD, Reactjs, Typescript, Ionic',
+    },
+    {
+        Heading:'Artemis Hub',
+        Subheading:'Web & App Development',
+        Image: ProjectsArtHub,
+        Likes:67,
+        Para1:"Product Manger for Atemis Hub which is a NFT aggregator product which lets customers purchase multuple NFTs from leading such as Opensea, Looksrare, X2Y2 in a single transaction to save on gas fee.",
+        Para2:'Stack: Adobe XD, Reactjs, Typescript, Ionic',
+    },
+    {
         Heading:'HumanRace Asia',
         Subheading:'Web Development',
         Image: ProjectsHR,
@@ -61,6 +70,15 @@ const Projects = [
         Para2:'Stack: Adobe XD, Wordpress, MySQL',
         Url: "https://humanrace.asia/",
 
+    },
+    {
+        Heading:'Degen Apes NFT Marketplace $eth',
+        Subheading:'Web3 Development',
+        Image: ProjectsDegenApes,
+        Likes:101,
+        Para1: "Welcome to the academy of the smoothest brained apes in the cryptoverse. Each of the Degen Ape is created with it's own set of unique traits. These traits define the rarity and authenticity of the ape. Higher the % of a trait, more valuable is the ape.",
+        Para2: "You can login from wallets like Metamask, Portis, WalletConnect, Coinbase, Authereum& Trezor. You can mint your favorite apes on the marketplace and view & sell your NFTs from the Opensea collection. Stack: Adobe XD, Reactjs, React-Bootstrap, Solidity",
+        Url: "https://degenapes.vercel.app/",
     },
     {
         Heading:'Fat Mario',

@@ -39,6 +39,8 @@ import ClientsModicare from './Home/ClientsModicare.png'
 import ProjectsAdtomicaWeb from './Home/ProjectsAdtomicaWeb.png'
 import ClientsVUClip from './Home/ClientsVUClip.png'
 import ProjectsCGWeb from './Home/ProjectsCGWeb.png'
+import ProjectsArtemisMar from './Home/ProjectsArtemisMar.png'
+import ProjectsArtHub from './Home/ProjectsArtHub.png'
 import ProjectsCryptomica from './Home/ProjectsCryptomica.png'
 import ProjectsDegenApes from './Home/ProjectsDegenApes.png'
 import ProjectsSolanagram from './Home/ProjectsSolanagram.png'
@@ -158,6 +160,8 @@ const Images ={
     ProjectsHR,
     ProjectsCBWeb,
     ProjectsFM,
+    ProjectsArtemisMar,
+    ProjectsArtHub
 }
 
 export default Images
