@@ -37,6 +37,7 @@ import ClientsSOAP from './Home/ClientsSOAP.png'
 import ClientsUnnocal from './Home/ClientsUnnocal.png'
 import ClientsModicare from './Home/ClientsModicare.png'
 import ProjectsAdtomicaWeb from './Home/ProjectsAdtomicaWeb.png'
+import ProjectsArteboost from './Home/ProjectsArteboost.png'
 import ClientsVUClip from './Home/ClientsVUClip.png'
 import ProjectsCGWeb from './Home/ProjectsCGWeb.png'
 import ProjectsArtemisMar from './Home/ProjectsArtemisMar.png'
@@ -161,7 +162,8 @@ const Images ={
     ProjectsCBWeb,
     ProjectsFM,
     ProjectsArtemisMar,
-    ProjectsArtHub
+    ProjectsArtHub,
+    ProjectsArteboost
 }
 
 export default Images
